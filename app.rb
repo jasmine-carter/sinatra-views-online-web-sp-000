@@ -6,3 +6,7 @@ class App < Sinatra::Base
 		"<h1>Hello World</h1>"
 	end
 end
+
+get '/' do
+      erb :index
+    end
